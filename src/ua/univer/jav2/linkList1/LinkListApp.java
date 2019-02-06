@@ -8,7 +8,9 @@ public class LinkListApp {
         theList.insertFirst(3, "Misha");
         theList.insertFirst(4, "Grisha");
         theList.insertFirst(5, "Vasya");
+        theList.insertFirst(6, "Masya");
         theList.displayList();
+
         while (!theList.isEmpty()) {
             Link aLink = theList.deleteFirst();
             System.out.println("Deleted ");
